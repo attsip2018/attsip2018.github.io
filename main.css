@@ -1,12 +1,13 @@
 body{
-	background-color: #f9efed;
+	background-color: #f9f1ef;
+	font-family: 'Source Code Pro', monospace;
 }
 
 h1{
 	text-align: center;
 	font-family: 'Press Start 2P', cursive;
 	font-size: 80px;
-	text-shadow: 3px 3px #ffac93;
+	text-shadow: 3px 3px 2px #ffac93;
 	color: #000;
 }
 
@@ -21,7 +22,23 @@ h2{
 
 h3{
 	font-family: 'Source Code Pro', monospace;
-	font-size: 20px;
+	font-size: 16px;
+	margin: 0;
+	text-align: center;
+	text-shadow: 2px 2px 1px #ffac93;
+	margin-bottom: -5px;
+}
+
+#blank{
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 16px;
+	background-color: #ffac93;
+	padding: 10px;
+	width: 650px;
+	display: block;
+	margin: auto;
+	margin-top: 160px;
 }
 
 #container{
@@ -39,11 +56,48 @@ h3{
 .project{
 	width: 260px;
 	padding: 20px;
-	box-shadow: 5px 5px #ffac93;
-	height: 300px;
+	box-shadow: 5px 5px 2px #ffac93;
+	height: 360px;
 	display: inline-block;
 	position: relative;
 	margin-right: 10px;
 	margin-left: 10px;
 	vertical-align: center;
+}
+
+.project img{
+	width: 240px;
+	margin: auto;
+	margin-bottom: 10px;
+	box-shadow: 0px 0px 15px #ffac93;
+	height: 150px;
+	display: block;
+}
+
+p{
+	font-size: 13px;
+	height: 140px;
+	overflow: hidden;
+	margin-bottom: 10px;
+	line-height: 1.2em;
+	text-align: center;
+}
+
+.project a{
+	background-color: #ffac93;
+	padding: 5px;
+	border: 1px #ffac93 solid;
+	font-size: 10px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	color: #000;
+	transition: 1s;
+}
+
+.project a:hover{
+	background-color: #f9f1ef;
+	transition: 1s;
+	color: #ffac93;
+	border: 1px #ffac93 solid;
 }
