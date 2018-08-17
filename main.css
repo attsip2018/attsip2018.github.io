@@ -26,7 +26,7 @@ h3{
 	margin: 0;
 	text-align: center;
 	text-shadow: 2px 2px 1px #ffac93;
-	margin-bottom: -5px;
+	margin-bottom: 5px;
 }
 
 #blank{
@@ -57,12 +57,13 @@ h3{
 	width: 260px;
 	padding: 20px;
 	box-shadow: 5px 5px 2px #ffac93;
-	height: 360px;
+	height: 390px;
 	display: inline-block;
 	position: relative;
 	margin-right: 10px;
 	margin-left: 10px;
 	vertical-align: center;
+	text-align: center;
 }
 
 .project img{
@@ -83,8 +84,12 @@ p{
 	text-align: center;
 }
 
+.project b{
+	font-size: 12px;
+}
+
 #links{
-	width: 450px;
+	width: 700px;
 	display: block;
 	margin: auto;
 }
@@ -115,6 +120,50 @@ a:hover{
 	width: 200px;
 }
 
-.project a{
-	width: 100%;
+.hover_bkgr_fricc{
+    /*background:rgba(0,0,0,.4);*/
+    display:none;
+    height:100%;
+    position:fixed;
+    text-align:center;
+    top:0;
+    width:101%;
+    z-index:10000;
+    padding: 0px;
+    margin-left: -10px;
+}
+.hover_bkgr_fricc .helper{
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+}
+.hover_bkgr_fricc > div {
+    background-color: #f9f1ef;
+	box-shadow: 0px 0px 15px #ffac93;
+    display: inline-block;
+    height: auto;
+    max-width: 200px;
+    min-height: 20px;
+    vertical-align: middle;
+    width: 60%;
+    position: relative;
+    padding: 60px;
+}
+.popupCloseButton {
+    background-color: #f9f1ef;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 10px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.trigger_popup_fricc {
+    cursor: pointer;
 }
